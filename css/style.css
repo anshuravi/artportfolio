@@ -1,0 +1,101 @@
+/* 
+COLOR PALETTE
+--gunmetal: #1B2A33ff;
+--lavender-floral: #C794FCff;
+--mexican-pink: #E00A7Dff;
+--white: #FEFEFEff;
+--risd-blue: #0A51FCff;
+*/
+
+/* GLOBAL STYLES 
+----------------------------------*/
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  html, body {
+    height: 100%
+  }
+body {
+    background: lavenderblush;
+    margin: 0;
+}
+/* links */
+a {
+    color: #E00A7Dff;
+}
+a:hover {
+    color: #0077b5;
+    text-decoration: none;
+}
+footer a {
+    color:#E00A7Dff;
+
+}
+footer a:hover {
+    color:#0077b5;
+}
+.btn{
+    background: #C794FCff;
+    color: #FEFEFEff;
+    text-decoration: none;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+/* HOME 
+----------------------------------*/
+.home{
+    background: url(../images/background2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.home .content-wrapper {
+    background: rgb(199 148 252 / 0.9);
+
+}
+
+/* RESUME 
+----------------------------------*/
+.resume header::before {
+    background: url(../images/background2.jpg) bottom;
+    background-size: cover; 
+    content: "";
+    display: block;
+    height: 375px;
+}
+/* Profile
+----------------------------------*/
+/* Projects
+----------------------------------*/
+/* Work Experience 
+----------------------------------*/
+/* Education
+----------------------------------*/
+/* FOOTER
+----------------------------------*/
+footer {
+    background: #1B2A33ff;
+    color: #FEFEFEff;
+}
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+
+}
+.socials img {
+    width: 32px;
+}
